@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: #87CEEB;
+  color: #333;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+table {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+table th {
+  background-color: #4682B4;
+  /* Azul mais escuro */
+  color: white;
+  /* Texto branco */
+}
+
+table td {
+  background-color: #f0f8ff;
+  /* Azul muito claro */
+  color: #333;
+  /* Texto em cinza escuro */
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+button {
+  background: #4682B4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5A9BD5;
+}
+
+.giant-name {
+  font-size: 10rem;
+  /* Tamanho ridiculamente grande */
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+}
+
+header.empty-header {
+  height: 50px;
+  background-color: transparent;
+}
